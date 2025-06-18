@@ -12,20 +12,20 @@
 
 Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest.
 
-### Problem Statements 
+### 📌 Problem Statements 
 Gambar alat 
 
 - Bagaimana cara mendeteksi tingkat stres seseorang menggunakan wearable device?
 - Sensor apa yang dapat digunakan untuk mendeteksi stres secara akurat?
 - Apa algoritma yang tepat untuk mengolah data sensor guna menentukan tingkat stres pengguna?
 
-### Goals 
+### 🎯 Goals 
 
 - Merancang dan mengembangkan wearable device yang dapat mendeteksi tingkat stres secara real-time.
 - Mengidentifikasi dan mengimplementasikan sensor yang tepat untuk mendeteksi stres.
 - Mengembangkan algoritma stres untuk memproses data guna menentukan tingkat stres pengguna.
 
-### Solution Statements 
+### 💻 Solution Statements 
 
 - Mengintegrasikan sensor MAX30102 untuk
 
@@ -44,10 +44,11 @@ Gambar Alur Data
 ### Schematic Fritzing 
 Gambar schematic 
 
+Sensor MAX30102 terhubung ke ESP32 melalui komunikasi I2C dengan pin SDA dan SCL, serta diberi daya dari pin 3.3V dan GND ESP32. Buzzer aktif dihubungkan ke salah satu pin digital ESP32 dan GND untuk menghasilkan bunyi sebagai alarm. Saklar terpasang di antara jalur positif baterai dan pin VIN ESP32, berfungsi sebagai tombol ON/OFF untuk menyalakan atau mematikan sistem. Ketika saklar diaktifkan, ESP32 akan menyala dan membaca data dari sensor. 
 ## Demo and Evaluation 
+Video 
 
-
-## Conclusion 
+## 🗣️ Conclusion 
 Dilakukan pengembangan sistem deteksi stress dengan sinyal photoplethysmogram dalam bentuk sarung tangan. Menggunakan sensor MAX30102 yang diletakkan pada ujung jari telunjuk pengguna. Penggunaan sensor MAX30102 dianggap sesuai dengan kebutuhan sistem, yaitu sinyal input IR untuk menghasilkan AVNN (Average of Normal to Normal interval) dan SDNN (Standard Deviation of NOrmal to Normal interval), ukurannya yang kecil sesuai untuk device yang bersifat wearable. Sinyal IR yang diambil dari hasil sensor diproses oleh model yang telah dikembangkan untuk menghasilkan hasil klasifikasi kelas berupa stress atau pun tidak stress. Jika hasil menunjukkan stress, maka buzzer akan berbunyi untuk mengingatkan pengguna. Digunakan Random Forest sebagai algoritma untuk model pembelajaran mesin, dikarenakan memiliki akurasi yang tinggi yaitu 95.6%  untuk dataset yang digunakan. Model dikembangkan dengan algoritma Random Forest dan ESP32 diprogramkan untuk memproses data berdasarkan model yang ada.
 
 
