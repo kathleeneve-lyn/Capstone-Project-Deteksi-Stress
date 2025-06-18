@@ -13,7 +13,7 @@
 Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest. Unit output yang digunakan adalah 
 
 ### 📌 Problem Statements 
-![auto-img](assets/schematic.png)
+![auto-img](assets/stressed_person.jpg)
 
 - Bagaimana cara mendeteksi tingkat stres seseorang menggunakan wearable device?
 - Sensor apa yang dapat digunakan untuk mendeteksi stres secara akurat?
@@ -43,7 +43,7 @@ Gambar Alur Data (blok diagram)
 ### Data Sheets ESP32
 
 ### Schematic Fritzing 
-Gambar schematic 
+![auto-img](assets/schematic.png)
 
 Sensor MAX30102 terhubung ke ESP32 melalui komunikasi I2C dengan pin SDA dan SCL, serta diberi daya dari pin 3.3V dan GND ESP32. Buzzer aktif dihubungkan ke salah satu pin digital ESP32 dan GND untuk menghasilkan bunyi sebagai alarm. Saklar terpasang di antara jalur positif baterai dan pin VIN ESP32, berfungsi sebagai tombol ON/OFF untuk menyalakan atau mematikan sistem. Ketika saklar diaktifkan, ESP32 akan menyala dan membaca data dari sensor. 
 ## Demo and Evaluation 
