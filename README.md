@@ -13,7 +13,7 @@
 Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest.
 
 ### 📌 Problem Statements 
-Gambar alat 
+![auto-img](assets/schematic.png)
 
 - Bagaimana cara mendeteksi tingkat stres seseorang menggunakan wearable device?
 - Sensor apa yang dapat digunakan untuk mendeteksi stres secara akurat?
