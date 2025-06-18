@@ -10,7 +10,7 @@
 
 ## Project Domain 
 
-Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest. Unit output yang digunakan adalah 
+Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest. Unit output yang digunakan adalah BLYNK serta buzzer. Buzzer akan berbunyi ketika klasifikasi menunjukkan stress, dan BLYNK menunjukkan keadaan pengguna serta nilai AVNN serta SDNN. 
 
 ### 📌 Problem Statements 
 ![auto-img](assets/stressed_person.jpg)
