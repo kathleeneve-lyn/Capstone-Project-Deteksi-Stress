@@ -31,7 +31,7 @@ Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram ya
 - Membuat model machine learning untuk klasifikasi data dari sensor dengan akurasi yang tinggi
 
 ## Prerequiresite
-Gambar Alur Data (blok diagram)
+![auto-img](assets/blok_diagram.png)
 
 ### Component Preparation 
 - **ESP32S3**          : Mikrokontroler untuk memproses data dan mengatur cara kerja sistem 
