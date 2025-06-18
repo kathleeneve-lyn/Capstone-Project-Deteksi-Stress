@@ -1,4 +1,4 @@
-# 🧤 Wearable Device untuk Deteksi Stres Berbasis Sinyal Photoplethysmogram 
+# 🧤 Wearable Device untuk Mendeteksi Stres Berbasis Sinyal Photoplethysmogram 
 ![auto-img](assets/product.jpg)
 
 ## Anggota Kelompok 
