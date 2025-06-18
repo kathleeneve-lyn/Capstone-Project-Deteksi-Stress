@@ -10,7 +10,7 @@
 
 ## Project Domain 
 
-Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest.
+Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram yang diekstrak dari sensor MAX30102. Menggunakan mikrokontroler ESP32S3 dan algoritma Random Forest. Unit output yang digunakan adalah 
 
 ### 📌 Problem Statements 
 ![auto-img](assets/schematic.png)
@@ -27,10 +27,11 @@ Project ini berfokus pada deteksi stres menggunakan sinyal photoplethysmogram ya
 
 ### 💻 Solution Statements 
 
-- Mengintegrasikan sensor MAX30102 untuk
+- Mengintegrasikan sensor MAX30102 dalam sistem wearable untuk mendeteksi stres dengan menggunakan sinyal PPG
+- Membuat model machine learning untuk klasifikasi data dari sensor dengan akurasi yang tinggi
 
 ## Prerequiresite
-Gambar Alur Data 
+Gambar Alur Data (blok diagram)
 
 ### Component Preparation 
 - **ESP32S3**          : Mikrokontroler untuk memproses data dan mengatur cara kerja sistem 
