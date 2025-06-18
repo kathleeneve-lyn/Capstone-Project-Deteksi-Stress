@@ -1,4 +1,4 @@
-# Wearable Device untuk Deteksi Stres Berbasis Sinyal Photoplethysmogram 
+# 🧤 Wearable Device untuk Deteksi Stres Berbasis Sinyal Photoplethysmogram 
 
 ## Anggota Kelompok 
 - 225150307111050      Muhammad Gulam Syarif 
